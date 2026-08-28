@@ -1,0 +1,35 @@
+#数据类型：二维数组
+
+#创建方法：多个Series的组合&用字典的形式创建，可以指定index,column(列)
+#属性：index：行索引；
+# values:值；
+# dtypes:元素类型；
+# shape:形状；
+# loc[]:按行列表签索引；
+#iloc[]：按位置索引
+#at[]:标签访问
+#iat[]:位置访问
+#T:行列转置
+
+#访问数据
+#head:查看前n行数据
+#tail:查看后n行数据
+#isin():判断是否在集合中
+#isna():判断是否为缺失值
+#mode():众数
+#describe():常见统计信息
+
+#常用方法：
+#value_counts():唯一值的出现次数
+#count()：非缺失值数量
+#duplicated：是否重复
+#drop_duplicated()：去掉重复
+#sample()：随机抽样
+#replace()：替换值
+#sort_index()：按索引排序
+#sort_values()：按值排序
+#replace()：替换值
+#nlargest()：返回最大的n条数据
+#nsmallest()：返回最小的n条数据
+
+
